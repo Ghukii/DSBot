@@ -3,7 +3,7 @@ from discord.ext import commands
 import requests
 import json
 
-token = 'MTA0NjE5MDM5NDIxMzQwMDYzNw.GHaD9k.CvAEyn9nTildSZp5FHM0hhm0Ayv6_2lgP_eF48'
+token = 'Token'
 bot = commands.Bot(intents = discord.Intents.all(), command_prefix='-')
 
 def create_embed_skin_data(skinn):
